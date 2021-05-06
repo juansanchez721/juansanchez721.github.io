@@ -6598,6 +6598,7 @@ button.bg-dark:focus {
 }
 
 .flex-shrink-0 {
+  width: 50%;
   flex-shrink: 0 !important;
 }
 
@@ -10125,7 +10126,8 @@ p.lead {
 }
 
 .project-img {
-  width: 450px;
+  margin-left: 10px;
+  width: 100%;
 }
 
 .black-link{
@@ -10153,6 +10155,7 @@ section.resume-section .resume-section-content {
   section.resume-section {
     min-height: 100vh;
   }
+  
 }
 @media (min-width: 992px) {
   section.resume-section {
@@ -10161,4 +10164,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+@media (max-width: 768px) {
+  .project-img{
+    margin-left: 0px;
+    width: 95vw;
+  }
+  
 }
