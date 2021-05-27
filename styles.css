@@ -10084,6 +10084,7 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
   transition: .5s;
+  transition-property: all;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10093,7 +10094,9 @@ p.lead {
 
   background-color: #bd5d38;
   padding: 0px 20px;
-  width: fit-content;
+  width: 120px;
+  justify-content: flex-start;
+
 }
 
 .social-icon span {
@@ -10107,11 +10110,30 @@ p.lead {
 .social-icon:hover span {
   transition: .4s;
   opacity: 1;
-  /* display: block; */
+  display: block;
   visibility: visible;
   width: fit-content;
   margin-left: .6rem;
 }
+
+.social-icon.email:hover {
+  /* transition: .4s; */
+  /* opacity: 1; */
+  /* display: block; */
+  /* visibility: visible; */
+  width: 260px;
+  /* margin-left: .6rem; */
+}
+
+.social-icon.phone:hover {
+  /* transition: .4s; */
+  /* opacity: 1; */
+  /* display: block; */
+  /* visibility: visible; */
+  width: 162px;
+  /* margin-left: .6rem; */
+}
+
 
 .dev-icons {
   font-size: 3rem;
