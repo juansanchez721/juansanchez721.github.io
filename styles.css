@@ -10103,17 +10103,20 @@ p.lead {
   visibility: hidden;
   opacity: 0;
   width: 0px;
+  height: fit-content;
   font-size: .85rem;
   /* transition: .7s; */
 }
 
 .social-icon:hover span {
-  transition: .4s;
+  /* transition: .4s; */
   opacity: 1;
   display: block;
   visibility: visible;
   width: fit-content;
   margin-left: .6rem;
+  white-space: nowrap;
+  height: fit-content;
 }
 
 .social-icon.email:hover {
